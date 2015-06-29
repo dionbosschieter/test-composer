@@ -1,0 +1,16 @@
+{
+    "name": "dionbosschieter/test-composer",
+    "description": "This is a test package with a Hello World renderer.",
+    "authors": [
+        {
+            "name": "dionbosschieter",
+            "email": "dionbosschieter@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "DionBosschieter\\TestComposer\\": "src/"
+        }
+    }
+}
